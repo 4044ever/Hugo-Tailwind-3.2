@@ -1,4 +1,4 @@
-# Hugo & Tailwind-3.0
+# Hugo & Tailwind 3.0
 
 ## A barebone Hugo & Tailwind CSS 3.0 starter kit
 
