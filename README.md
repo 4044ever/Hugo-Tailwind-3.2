@@ -2,7 +2,9 @@
 
 ## A barebone Hugo & Tailwind CSS 3.0 starter kit
 
-Download and install in VS Code
+**Install to VS Code with:**
+`git clone https://github.com/4044ever/Hugo-Tailwind-3.0`
+
 
 **To start developing:**  
     `npm run start`
