@@ -2,7 +2,7 @@
 
 ## A barebone Hugo & Tailwind CSS 3.0 starter kit
 
-**Install to VS Code with:**
+**Install to VS Code with:**  
 `git clone https://github.com/4044ever/Hugo-Tailwind-3.0`
 
 
