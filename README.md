@@ -4,7 +4,7 @@
 
 **Install to VS Code with:**  
 `git clone https://github.com/4044ever/Hugo-Tailwind-3.0`
-
+`npm install`
 
 **To start developing:**  
 `npm run start`
