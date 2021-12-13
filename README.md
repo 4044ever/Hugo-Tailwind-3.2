@@ -21,3 +21,5 @@ and
 Note: When you start first time **npm run start** a style.css must exist - or you get an error! Just do a **Ctrl+c** and run **npm run start** - even though you got an error but a style was written anyway and 2nd time round it should start fine.
 
 To get out of developing mode you need to do **Ctrl+c** twice.
+
+> **Disclaymer:** This is my first try with Hugo and Tailwind 3.0. To me it looks like all functions work, classes get updated, a correct `/public/` folder with purged, minified style*.css gets created. Seems production ready, you can build a theme around it. Leave a command if you see errors or improvements. 
