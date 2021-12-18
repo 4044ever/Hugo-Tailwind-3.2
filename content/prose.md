@@ -10,7 +10,7 @@ description: A test with @tailwindcss/typography & Prose
 
 With the new [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin) module I can add prose modifiers that will render to the output HTML. This allows you to style HTML tags individually with i.e. `prose-h*:text-color-*00`
 
-# this is a H1 header
+# this is a H1 header 
 ## this is a H2 header
 ### this is a H3 header
 #### this is a H4 header   
@@ -18,18 +18,36 @@ With the new [@tailwindcss/typography](https://tailwindcss.com/docs/typography-p
 You can change link colors too and define hover with `prose prose-a:text-pink-700 hover:prose-a:text-cyan-700` - example: 
 [gohugo.io](https://gohugo.io) 
 
-##### Code snippets show the ` for some reason: 
+##### Note that in standard prose code snippets show the ` for some reason. So in standard prose you get:
 
-`<tca focal="17" model="poly3" vb="1.0000" vr="1.00073"/>`
+&#96;`<code>Something</code>`&#96;
 
-The above code wraps in &lt;code&gt; tags.
+But I want want:
 
-The code sample below wraps in &lt;pre&gt;&lt;code&gt;:  
+`<code>Something</code>`
 
-    "scripts": {
-    "dev": "concurrently npm:watch:*",
-    "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/output.css --watch",
-    "watch:hugo": "hugo server",
+So I modified the `tailwind.config.js` to:
+
+    module.exports = {
+    content: ['./layouts/**/*.html'],
+    theme: {
+        extend: {
+            typography: {
+                DEFAULT: {
+                    css: {
+                        "code::before": {content: ''},
+                        "code::after": {content: ''}
+                    }
+                }
+            }
+        }
+    },
+    plugins: [
+        require('@tailwindcss/typography'),
+    ],
+    }
+
+Remove those extra lines you want the &#96;`ticks`&#96;. Tailwind uses them on their website.
 
 Click for more about: [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)  
 
