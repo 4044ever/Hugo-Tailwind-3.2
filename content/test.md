@@ -3,7 +3,7 @@ title: "test"
 date: 2021-09-07T13:10:36+08:00
 draft: false
 language: en
-description: A Collection Of Frequently Ask Questions About The 5-Day-Shenzhen-Visa. Currently The Hong Kong - Shenzhen Border Is Still closed (Sep 2021) Maybe Soon....
+description:  Maybe Soon....
 ---
 
 ## Just a test   
