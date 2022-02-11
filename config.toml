@@ -3,4 +3,10 @@ languageCode = 'en-us'
 title = 'Hugo & Tailwind 3.0'
 disableKinds = ["taxonomy","taxonomyTerm"]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
 
