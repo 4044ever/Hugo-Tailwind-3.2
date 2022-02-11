@@ -1,3 +1,5 @@
+> **Important Note:** Some previous versions had an issue with Tailwind not updating classes, it should work with this update. Since Hugo is not updated to work well with TailwindCSS 3.* site rebuilds can be slow, sometimes 20 Seconds or more.
+
 # Hugo & Tailwind 3.0
 
 ## A barebone Hugo & Tailwind CSS 3.0 starter kit
@@ -23,3 +25,5 @@ Note: When you start first time **npm run start** a style.css must exist - or yo
 To get out of developing mode you need to do **Ctrl+c** twice.
 
 > **Disclaimer:** This is my first try with Hugo and Tailwind 3.0. To me it looks like all functions work, classes get updated, a correct `/public/` folder with purged, minified style*.css gets created. Seems production ready, you can build a theme around it. Leave a comment if you see errors or improvements. 
+
+> **Update Notes:** If you have an older version and new Tailwind classes don't update, change in `tailwind.config.js` to `content: ['./layouts/**/*.html', './content/**/*.md']`. Allowing `HTML` in `*.md` files may help too, allow them in `config.toml`
