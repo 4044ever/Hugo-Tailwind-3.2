@@ -1,4 +1,4 @@
-> **Important Note:** This is tested up to/with [Hugo 0.92.2 extended](https://github.com/gohugoio/hugo/releases/tag/v0.92.2). Hugo version 0.93.* does not work so far and I am looking into it.
+> **Important Note:** Tested up to/with [Hugo 0.93.2 extended](https://github.com/gohugoio/hugo/releases/tag/v0.93.2). 
 
 # Hugo & Tailwind 3.0
 
