@@ -26,5 +26,5 @@ To get out of developing mode you need to do **Ctrl+c** twice.
 
 > **Update Notes:** If you have an older version and new Tailwind classes don't update, change in `tailwind.config.js` to `content: ['./layouts/**/*.html', './content/**/*.md']`. Allowing `HTML` in `*.md` files may help too, allow them in `config.toml`
 
-> **Hugo 0.93.x Note:** Tested up to/with [Hugo 0.93.2 extended](https://github.com/gohugoio/hugo/releases/tag/v0.93.2). If you get `stack exceeds` error check your markdown URL, `[https://github.com](https://github.com)` trows an error, but `[github.com](https://github.com)` works fine.
+> **Hugo Note:** Tested up to/with [Hugo 0.93.2 extended](https://github.com/gohugoio/hugo/releases/tag/v0.93.2).
 
