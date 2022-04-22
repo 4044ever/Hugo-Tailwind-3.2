@@ -18,6 +18,8 @@
 and
 `hugo server`
 
+Note: You do not have to install Hugo with `Hugo new site hugofolder` ! But you need to have the Hugo environment running!
+
 Note: When you start first time **npm run start** a style.css must exist - or you get an error! Just do a **Ctrl+c** and run **npm run start** - even though you got an error but a style was written anyway and 2nd time round it should start fine.
 
 To get out of developing mode you need to do **Ctrl+c** twice.
