@@ -28,5 +28,5 @@ To get out of developing mode you need to do **Ctrl+c** twice.
 
 > **Update Notes:** If you have an older version and new Tailwind classes don't update, change in `tailwind.config.js` to `content: ['./layouts/**/*.html', './content/**/*.md']`. Allowing `HTML` in `*.md` files may help too, allow them in `config.toml`
 
-> **Hugo Note:** Tested up to/with [Hugo 0.98.0 extended](https://github.com/gohugoio/hugo/releases/tag/v0.98.0). So far all new Hugo version worked for me.
+> **Hugo Note:** Tested up to/with [Hugo 0.99.0 extended](https://github.com/gohugoio/hugo/releases/tag/v0.99.0). So far all new Hugo version worked for me.
 
