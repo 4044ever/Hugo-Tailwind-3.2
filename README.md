@@ -1,6 +1,6 @@
-# Hugo & Tailwind 3.0 (now 3.1.4!)
+# Hugo & Tailwind 3.1 (now 3.1.4!)
 
-## A barebone Hugo & Tailwind CSS 3.0 starter kit
+## A barebone Hugo & Tailwind CSS 3.1 starter kit
 
 **Install to VS Code with:**  
 `git clone https://github.com/4044ever/Hugo-Tailwind-3.0`  
