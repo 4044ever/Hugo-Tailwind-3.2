@@ -11,7 +11,7 @@
     "postcss": "^8.4.14",
     "postcss-cli": "^10.0.0",
     "tailwindcss": "^3.1.4"
-  },
+  }, 
   "scripts": {
     "start": "concurrently npm:watch:*",
     "watch:tw": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch",
