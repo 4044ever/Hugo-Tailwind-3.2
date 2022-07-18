@@ -1,9 +1,9 @@
-# Hugo & Tailwind 3.1 (now 3.1.4!)
+# Hugo & Tailwind 3.1 (now 3.1.6!)
 
 ## A barebone Hugo & Tailwind CSS 3.1 starter kit
 
 **Install to VS Code with:**  
-`git clone https://github.com/4044ever/Hugo-Tailwind-3.0`  
+`git clone https://github.com/4044ever/Hugo-Tailwind-3.0 optinal-foldername`  
 `npm install`
 
 **To start developing:**  
@@ -28,5 +28,5 @@ To get out of developing mode you need to do **Ctrl+c** twice.
 
 > **Update Notes:** If you have an older version and new Tailwind classes don't update, change in `tailwind.config.js` to `content: ['./layouts/**/*.html', './content/**/*.md']`. Allowing `HTML` in `*.md` files may help too, allow them in `config.toml`
 
-> **Hugo Note:** Tested up to/with [Hugo 0.100.2 extended](https://github.com/gohugoio/hugo/releases/tag/v0.100.2). So far all new Hugo version worked for me.
+> **Hugo Note:** Tested up to/with [Hugo 0.101.0 extended](https://github.com/gohugoio/hugo/releases/tag/v0.101.0). So far all new Hugo version worked for me.
 
