@@ -31,4 +31,4 @@ To get out of developing mode you need to do **Ctrl+c** twice.
 ## So what changed?
 * I updated to the latest TailwindCSS 3.2.4
 * I removed `concurrently` and changed to `npm-run-all`, does not really makes a difference though
-
+* Removed `autoprefixer` and `postcss`, seems they are no longer required
