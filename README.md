@@ -1,4 +1,4 @@
-# Hugo & Tailwind 3.2 (now 3.2.4!)
+# Hugo & Tailwind 3.2 (now 3.4.1!)
 
 ## A barebone Hugo & Tailwind CSS 3.2.* starter kit
 
