@@ -26,7 +26,7 @@ To get out of developing mode you need to do **Ctrl+c** twice.
 
 > **Disclaimer:** This is my personal try with Hugo and Tailwind 3.2.* To me it looks like all functions work, classes get updated, a correct `/public/` folder with purged, minified style*.css gets created. Seems production ready, you can build a theme around it. Leave a comment if you see errors or improvements. 
 
-> **Hugo Note:** Tested up to/with [Hugo 0.121 extended](https://github.com/gohugoio/hugo/releases/tag/v0.121.0). So far all new Hugo version worked for me.
+> **Hugo Note:** Tested up to/with [Hugo 0.121 extended](https://github.com/gohugoio/hugo/releases/tag/v0.121.2). So far all new Hugo version worked for me.
 
 ## So what changed?
 * I updated to the latest TailwindCSS 3.4.1
